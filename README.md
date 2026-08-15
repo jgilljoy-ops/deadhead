@@ -44,7 +44,7 @@ Deadhead is the tool I wanted on the road. Every constraint it models is one I h
 This is the part that makes it different from a distance minimizer.
 
 ### Hours of Service
-Canadian federal rules: 13 hours driving, 14 hours on-duty, 10 consecutive hours off, and a 70-hour limit across 7 days. A route that is optimal on distance but illegal on hours is not a route — it's a fine and a shut-down driver. Deadhead treats HOS as a hard constraint, which turns routing into a combined routing-and-scheduling problem.
+Canadian federal rules: 13 hours driving, 14 hours on-duty, 10 consecutive hours off, and a 70-hour limit across 7 days. A route that is optimal on distance but illegal on hours is not a route - it's a fine and a shut-down driver. Deadhead treats HOS as a hard constraint, which turns routing into a combined routing-and-scheduling problem.
 
 ### Truck-legal routing
 Bridge clearances, posted weight limits, and truck-prohibited roads. Consumer routing APIs answer "how would a car get there." That is the wrong question for a vehicle 4.1 m tall and 36,000 kg loaded.
