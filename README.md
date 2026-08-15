@@ -6,7 +6,6 @@ Most routing tools optimize distance. Distance is not what costs money. Empty mi
 
 🔗 **Live demo:** _coming soon_ · no signup required — hit **Load demo fleet** to seed vehicles and deliveries
 
-![screenshot](docs/screenshot.png)
 
 ---
 
@@ -123,4 +122,4 @@ Underneath the trucking framing, the problem is constrained resource allocation 
 
 ---
 
-**Built by [your name]** · [portfolio] · [LinkedIn]
+**Built by Jiteshwar Gill** 
