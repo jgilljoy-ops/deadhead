@@ -56,13 +56,13 @@ The app is named for the thing it minimizes. Empty running is pure cost. A route
 Quebec's spring thaw (*dégel*) drops allowable axle weights on many roads for several weeks each spring. A plan that's legal in July is illegal in April on the same road.
 
 ### Idling burn
-Fuel burned while stationary — reefer units, cab heat through a Montreal winter, waiting at a dock. Distance-based fuel estimates miss this entirely, and over a week it is not a rounding error.
+Fuel burned while stationary - reefer units, cab heat through a Montreal winter, waiting at a dock. Distance-based fuel estimates miss this entirely, and over a week it is not a rounding error.
 
 ---
 
 ## Solver approach
 
-Assigning deliveries across vehicles is the **Vehicle Routing Problem** — NP-hard, so exact solutions are off the table at useful sizes. Deadhead implements heuristics and shows its work.
+Assigning deliveries across vehicles is the **Vehicle Routing Problem** - NP-hard, so exact solutions are off the table at useful sizes. Deadhead implements heuristics and shows its work.
 
 | Solver | Approach | Total cost | Distance | Compute |
 |---|---|---|---|---|
@@ -70,7 +70,7 @@ Assigning deliveries across vehicles is the **Vehicle Routing Problem** — NP-h
 | 2-opt | Local search on greedy | _TBD_ | _TBD_ | _TBD_ |
 | VROOM | Reference solver | _TBD_ | _TBD_ | _TBD_ |
 
-The comparison view animates routes improving as the local search runs, and a **why this route** panel names the binding constraint for each vehicle — hours exhausted, weight limit, or time window. Dispatchers don't trust a black box, and neither should a reviewer.
+The comparison view animates routes improving as the local search runs, and a **why this route** panel names the binding constraint for each vehicle - hours exhausted, weight limit, or time window. Dispatchers don't trust a black box, and neither should a reviewer.
 
 ---
 
