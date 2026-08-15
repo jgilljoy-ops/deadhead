@@ -4,7 +4,7 @@
 
 Most routing tools optimize distance. Distance is not what costs money. Empty miles, illegal hours, idling time, and a bridge you can't fit under are what cost money. Deadhead plans multi-vehicle delivery routes around the constraints drivers and dispatchers actually work inside.
 
-🔗 **Live demo:** _coming soon_ · no signup required — hit **Load demo fleet** to seed vehicles and deliveries
+🔗 **Live demo:** _coming soon_ · no signup required - hit **Load demo fleet** to seed vehicles and deliveries
 
 
 ---
@@ -21,17 +21,17 @@ Deadhead is the tool I wanted on the road. Every constraint it models is one I h
 
 ## What it does
 
-**v1 — trip economics**
+**v1 - trip economics**
 - Log a run: distance, fuel, tolls, hours, load weight
 - Cost per kilometre, cost per loaded kilometre, margin per load
 - History and trend charts
 
-**v2 — fleet assignment**
+**v2 - fleet assignment**
 - Enter your fleet and your deliveries
 - Assigns deliveries across vehicles and sequences each route
 - Map view of every vehicle's plan
 
-**v3 — real constraints**
+**v3 - real constraints**
 - Hours of Service scheduling
 - Truck-legal routing
 - Seasonal weight restrictions
@@ -104,9 +104,9 @@ Open `http://localhost:3000`.
 
 ## Status
 
-- [ ] v1 — trip logging, cost per km, charts
+- [ ] v1 - trip logging, cost per km, charts
 - [ ] Deployed with live demo data
-- [ ] v2 — fleet and delivery entry, greedy assignment, map view
+- [ ] v2 - fleet and delivery entry, greedy assignment, map view
 - [ ] 2-opt improvement and solver comparison
 - [ ] Hours of Service constraints
 - [ ] Truck-legal routing
@@ -118,7 +118,7 @@ Open `http://localhost:3000`.
 
 Deadhead is a portfolio project, not production dispatch software. The Hours of Service implementation follows Canadian federal rules and is a modelling exercise, not compliance advice.
 
-Underneath the trucking framing, the problem is constrained resource allocation under operational limits — the same shape as convoy planning and fleet tasking.
+Underneath the trucking framing, the problem is constrained resource allocation under operational limits - the same shape as convoy planning and fleet tasking.
 
 ---
 
